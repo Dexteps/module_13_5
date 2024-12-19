@@ -7,7 +7,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import Message, ReplyKeyboardMarkup,KeyboardButton
 from aiohttp.web_routedef import route
 
-TOKEN = '7540393674:AAHoHkUEixUNxj_HgsaZiZ1eMonAXY1svwg' # Пиши свой токен бота друган )))))
+TOKEN = '' # Пиши свой токен бота друган )))))
 storage = MemoryStorage()
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
